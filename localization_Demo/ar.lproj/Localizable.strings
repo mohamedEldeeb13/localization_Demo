@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  localization_Demo
+
+  Created by Mohamed Abd Elhakam on 15/02/2024.
+  
+*/
+"Lang" = "ar";
+
+"Error" = "خطا";
+"ErrorMsg" = "هناك خطا ما";
+"DismissBtn" = "تراجع";
+"langBtn" = "English";

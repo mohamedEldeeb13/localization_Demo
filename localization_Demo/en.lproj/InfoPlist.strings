@@ -1,0 +1,4 @@
+
+// for change app name for arabic or english
+
+"CFBundleName" = "MyLanguage";

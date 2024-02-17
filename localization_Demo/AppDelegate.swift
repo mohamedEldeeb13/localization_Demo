@@ -6,17 +6,27 @@
 //
 
 import UIKit
+import MOLH
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+class AppDelegate: UIResponder, UIApplicationDelegate, MOLHResetable {
+   
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MOLH.shared.activate(true)
+//        reset()
         return true
     }
 
+    func reset() {
+        let rootViewController: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+               let story = UIStoryboard(name: "Main", bundle: nil)
+               rootViewController.rootViewController = story.instantiateViewController(withIdentifier: "HomeView")
+    }
+    
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

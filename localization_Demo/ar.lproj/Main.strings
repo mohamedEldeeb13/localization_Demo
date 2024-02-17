@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "welcome"; ObjectID = "Bk3-EV-eNx"; */
+"Bk3-EV-eNx.text" = "مرحبا";
+
+/* Class = "UITextField"; placeholder = "user name"; ObjectID = "RLR-21-WJK"; */
+"RLR-21-WJK.placeholder" = "اسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "log in"; ObjectID = "RcS-nX-5lf"; */
+"RcS-nX-5lf.normalTitle" = "تسجيل الدخول";

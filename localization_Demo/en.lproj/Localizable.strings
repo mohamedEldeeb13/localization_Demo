@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  localization_Demo
+
+  Created by Mohamed Abd Elhakam on 15/02/2024.
+  
+*/
+
+"Lang" = "en";
+
+"Error" = "Error";
+"ErrorMsg" = "there is an error";
+"DismissBtn" = "dismiss";
+"langBtn" = "عربي";

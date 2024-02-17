@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39A8AFF2B7F654B00976DB9 /* MOLH in Frameworks */ = {isa = PBXBuildFile; productRef = D39A8AFE2B7F654B00976DB9 /* MOLH */; };
+		D39A8B022B7F6BFD00976DB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39A8B042B7F6BFD00976DB9 /* InfoPlist.strings */; };
 		D3D440DF2B7E1599005F4C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D440DE2B7E1599005F4C49 /* AppDelegate.swift */; };
 		D3D440E12B7E1599005F4C49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D440E02B7E1599005F4C49 /* SceneDelegate.swift */; };
 		D3D440E32B7E1599005F4C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D440E22B7E1599005F4C49 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		D3D440F62B7E159B005F4C49 /* localization_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D440F52B7E159B005F4C49 /* localization_DemoTests.swift */; };
 		D3D441002B7E159B005F4C49 /* localization_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D440FF2B7E159B005F4C49 /* localization_DemoUITests.swift */; };
 		D3D441022B7E159B005F4C49 /* localization_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D441012B7E159B005F4C49 /* localization_DemoUITestsLaunchTests.swift */; };
+		D3D441122B7E192B005F4C49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3D441142B7E192B005F4C49 /* Localizable.strings */; };
+		D3D441172B7E19FB005F4C49 /* extention+localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D441162B7E19FB005F4C49 /* extention+localize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D39A8B052B7F6C1B00976DB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D39A8B062B7F6C2300976DB9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3D440DB2B7E1599005F4C49 /* localization_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localization_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D440DE2B7E1599005F4C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D440E02B7E1599005F4C49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,11 @@
 		D3D440FB2B7E159B005F4C49 /* localization_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localization_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D440FF2B7E159B005F4C49 /* localization_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localization_DemoUITests.swift; sourceTree = "<group>"; };
 		D3D441012B7E159B005F4C49 /* localization_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localization_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3D4410E2B7E18E9005F4C49 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		D3D4410F2B7E18E9005F4C49 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D3D441132B7E192B005F4C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D3D441152B7E192F005F4C49 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D3D441162B7E19FB005F4C49 /* extention+localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extention+localize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39A8AFF2B7F654B00976DB9 /* MOLH in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +111,7 @@
 		D3D440DD2B7E1599005F4C49 /* localization_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D3D441162B7E19FB005F4C49 /* extention+localize.swift */,
 				D3D440DE2B7E1599005F4C49 /* AppDelegate.swift */,
 				D3D440E02B7E1599005F4C49 /* SceneDelegate.swift */,
 				D3D440E22B7E1599005F4C49 /* ViewController.swift */,
@@ -106,6 +119,8 @@
 				D3D440E72B7E159A005F4C49 /* Assets.xcassets */,
 				D3D440E92B7E159A005F4C49 /* LaunchScreen.storyboard */,
 				D3D440EC2B7E159A005F4C49 /* Info.plist */,
+				D3D441142B7E192B005F4C49 /* Localizable.strings */,
+				D39A8B042B7F6BFD00976DB9 /* InfoPlist.strings */,
 			);
 			path = localization_Demo;
 			sourceTree = "<group>";
@@ -143,6 +158,9 @@
 			dependencies = (
 			);
 			name = localization_Demo;
+			packageProductDependencies = (
+				D39A8AFE2B7F654B00976DB9 /* MOLH */,
+			);
 			productName = localization_Demo;
 			productReference = D3D440DB2B7E1599005F4C49 /* localization_Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3D441082B7E159B005F4C49 /* Build configuration list for PBXNativeTarget "localization_DemoTests" */;
 			buildPhases = (
+				F88F03BEB885EF2BA4DDD816 /* [CP] Check Pods Manifest.lock */,
 				D3D440ED2B7E159B005F4C49 /* Sources */,
 				D3D440EE2B7E159B005F4C49 /* Frameworks */,
 				D3D440EF2B7E159B005F4C49 /* Resources */,
@@ -169,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3D4410B2B7E159B005F4C49 /* Build configuration list for PBXNativeTarget "localization_DemoUITests" */;
 			buildPhases = (
+				9E099E701EE067AB4FEB65D5 /* [CP] Check Pods Manifest.lock */,
 				D3D440F72B7E159B005F4C49 /* Sources */,
 				D3D440F82B7E159B005F4C49 /* Frameworks */,
 				D3D440F92B7E159B005F4C49 /* Resources */,
+				45E72AD09984739E1365A938 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,8 +234,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = D3D440D22B7E1599005F4C49;
+			packageReferences = (
+				D39A8AFD2B7F654B00976DB9 /* XCRemoteSwiftPackageReference "MOLH" */,
+			);
 			productRefGroup = D3D440DC2B7E1599005F4C49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D440EB2B7E159A005F4C49 /* LaunchScreen.storyboard in Resources */,
+				D3D441122B7E192B005F4C49 /* Localizable.strings in Resources */,
 				D3D440E82B7E159A005F4C49 /* Assets.xcassets in Resources */,
 				D3D440E62B7E1599005F4C49 /* Main.storyboard in Resources */,
+				D39A8B022B7F6BFD00976DB9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +280,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45E72AD09984739E1365A938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-localization_Demo-localization_DemoUITests/Pods-localization_Demo-localization_DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-localization_Demo-localization_DemoUITests/Pods-localization_Demo-localization_DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-localization_Demo-localization_DemoUITests/Pods-localization_Demo-localization_DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E099E701EE067AB4FEB65D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-localization_Demo-localization_DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88F03BEB885EF2BA4DDD816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-localization_DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3D440D72B7E1599005F4C49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +352,7 @@
 				D3D440E32B7E1599005F4C49 /* ViewController.swift in Sources */,
 				D3D440DF2B7E1599005F4C49 /* AppDelegate.swift in Sources */,
 				D3D440E12B7E1599005F4C49 /* SceneDelegate.swift in Sources */,
+				D3D441172B7E19FB005F4C49 /* extention+localize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +389,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D39A8B042B7F6BFD00976DB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39A8B052B7F6C1B00976DB9 /* en */,
+				D39A8B062B7F6C2300976DB9 /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D3D440E42B7E1599005F4C49 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D3D440E52B7E1599005F4C49 /* Base */,
+				D3D4410E2B7E18E9005F4C49 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,8 +411,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D3D440EA2B7E159A005F4C49 /* Base */,
+				D3D4410F2B7E18E9005F4C49 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D441142B7E192B005F4C49 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D441132B7E192B005F4C49 /* en */,
+				D3D441152B7E192F005F4C49 /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,6 +433,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -384,6 +497,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -443,6 +557,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y9WFT4L662;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = localization_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -460,6 +576,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -471,6 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y9WFT4L662;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = localization_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -607,6 +725,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D39A8AFD2B7F654B00976DB9 /* XCRemoteSwiftPackageReference "MOLH" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MoathOthman/MOLH";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D39A8AFE2B7F654B00976DB9 /* MOLH */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D39A8AFD2B7F654B00976DB9 /* XCRemoteSwiftPackageReference "MOLH" */;
+			productName = MOLH;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3D440D32B7E1599005F4C49 /* Project object */;
 }
